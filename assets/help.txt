@@ -1,0 +1,32 @@
+Usage:
+
+p:  put a question in the bank – p is followed by the question fields as shown below. When finished,
+	display the question number assigned by the server to the question or an error message.
+
+	question tag – string that may have spaces, commas, etc. but not a new line or unprintable char
+	question text – one or more lines of text, followed by a line containing a period ‘.’ by itself
+	question choices – two or more choices, with the last choice followed by a lone period line
+	choice – each choice is one or more lines of text followed by a lone period line
+		     each choice text shall start with “(<x>) ” where <x> is a consecutive letter a, b, …
+	correct answer - <x> where <x> is the letter of the correct answer
+
+
+d <n>: delete a question from the bank – delete question number <n> from the bank. Display
+	   either an indication of success or failure.
+
+g <n>: get question number <n> from the bank. Display the question in the format given for the p
+	   command, or an error message if there is no question with that number.
+
+r:  get a random question from the bank.  Display the question number on one line, followed by the
+	question text, followed by an empty line, followed by each choice but not the correct answer.
+    Wait for a response from the user of a letter between ‘a’ and the letter corresponding to the last choice.
+    Display either “Correct” or “Incorrect” depending on the returned value.
+
+c <n> <x>: check answer <x> to question <n> in the bank.
+	Display either 	“Correct” or “Incorrect” depending on the returned value.
+
+k: kill – terminate the server.
+
+q: quit – terminate the client.
+
+h: help – print brief instructions on these commands

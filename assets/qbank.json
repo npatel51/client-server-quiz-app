@@ -1,0 +1,90 @@
+[
+  {
+    "politics": [
+      {
+        "3": {
+          "question": "tag\nwho is the president of USA?\n(a) Barack Obama\n(b) Donald Trump\n(c) idk\n",
+          "answer": "c"
+        }
+      },
+      {
+        "50": {
+          "question": "question\n(a)\n(b)\n",
+          "answer": "a"
+        }
+      }
+    ]
+  },
+  {
+    "computer science": [
+      {
+        "4": {
+          "question": "How many times can you tear a phonebook with 128 pages (i.e., sheets of paper)\n in half, each time throwing away one of the halves, before only one page remains?\n(a) 6\n(b) 7\n(c) 10\n(d) 64\n",
+          "answer": "b"
+        }
+      },
+      {
+        "5": {
+          "question": "what's the time complexity of mergesort?\na. o(nlogn)\nb. o(n)\nc. idk\n",
+          "answer": "a"
+        }
+      },
+      {
+        "6": {
+          "question": "which of the following ds is FIFO?\n(a)queue\n(b)stack\n(array\u001B[D\u001B[D\u001B[D\u001B[D\u001B[Dc)array\n",
+          "answer": "a"
+        }
+      },
+      {
+        "7": {
+          "question": "which of the following is a programming language?\n(a)Java\n(b)english\n(c)rugby\n",
+          "answer": "a"
+        }
+      },
+      {
+        "8": {
+          "question": "Is TCP connectionless protocol?\n(a) True\n(b)\nFalse\n",
+          "answer": "b"
+        }
+      },
+      {
+        "12": {
+          "question": "question\n(a)\n(b)\n",
+          "answer": "a"
+        }
+      },
+      {
+        "9": {
+          "question": "which algorithm can be used to find minimum spanning tree in a graph?\n(assume graph is connected)\n(a)Kruksal's\n(b) Prim's\n(C) BOth a & b\n(d) None of the above\n",
+          "answer": "c"
+        }
+      }
+    ]
+  },
+  {
+    "tag": [
+      {
+        "11": {
+          "question": "question\n(a)\n(b)\n",
+          "answer": "a"
+        },
+        "10": {
+          "question": "question\n(a)\n(b)\n",
+          "answer": "a"
+        }
+      },
+      {
+        "51": {
+          "question": "question 50\nwhat is it?\na\nb\nc\nd\n.e\ne\n",
+          "answer": "d"
+        }
+      },
+      {
+        "52": {
+          "question": "question\nquestion\nquestion\nwhat's the question?\na.\nb\nc\nd\n.e\ne\n",
+          "answer": "e"
+        }
+      }
+    ]
+  }
+]
